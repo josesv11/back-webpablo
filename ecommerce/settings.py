@@ -117,16 +117,18 @@ AUTH_USER_MODEL = 'users.CustomUser'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',  # PGDATABASE
-        'USER': 'postgres',  # PGUSER
-        'PASSWORD': 'toBQOykvlgVqOVFztGcjiLwFcScLbHBt',  # PGPASSWORD
-        'HOST': 'postgres.railway.internal',  # PGHOST
-        'PORT': '5432',  # PGPORT
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "railway",
+        "USER": "postgres",
+        "PASSWORD": "oeqOOQfpkaOTmDgXAmQZqDYiwAPXHvbR",
+        "HOST": "postgres-dzgl.railway.internal",
+        "PORT": "5432",
     }
 }
+
 
 
 # esperenxd
